@@ -1,0 +1,440 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Hotel Panorama </title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" type="text/css">
+  <link href="css/animate.css">
+  <link href="css/bootstrap-datetimepicker.css" rel="stylesheet">
+
+  <!-- <link href="css/jquery-ui.css" rel="stylesheet" /> -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="color/default.css" rel="stylesheet">
+
+
+</head>
+
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+  <div class="container">
+    <div id="preloader">
+      <div id="load"></div>
+    </div>
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand" href="index.html">
+
+        </div>
+
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="chambre.html">Infos sur les chambres</a></li>
+            <li><a href="equipement.html">Equipements</a></li>
+            <li><a href="savoir.html">A savoir</a></li>
+            <li><a href="map.html">Map</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+  </div>
+
+  <!-- Section: intro -->
+  <section id="intro" class="intro">
+    <div class="slogan">
+      <h1>BIENVENUE à <span class="text_color">l'HÔTEL PANORAMA</span> </h1>
+      <h4 id= "devise">SYMPATIQUE et CHALEUREUX</h4>
+    </div>
+    <div class="page-scroll">
+      <a href="#service" class="btn btn-circle">
+        <i class="fa fa-angle-double-down animated"></i>
+      </a>
+    </div>
+  </section>
+  <!-- /Section: intro -->
+
+  <!-- Section: Reservation -->
+  <br>
+  <br>
+  <FORM method="get" action="formulaireRegistration.php">
+    <div class="container">
+      <fieldset class="scheduler-border">
+        <legend class="scheduler-border">
+          <h1>RESERVATION</h1></legend>
+
+        <div class="container">
+          <div class="row">
+          <div class="col-sm-6 col-md-3">
+            <div class="form-group">
+              <label for="arrivee">Arrivée</label>
+              <input name=arrivee type='datepicker' class="form-control" id="dateA">
+            </div>
+          </div>
+
+
+              <div class="col-sm-6 col-md-3">
+                <div class="form-group">
+                  <label for="depart">Départ</label>
+                  <input name=depart type='datepicker' class="form-control" id="dateD">
+                </div>
+              </div>
+
+          <div class="col-sm-6 col-md-3">
+            <div class="form-group">
+              <label for="TypeChambre">Type de chambre</label>
+              <select name="type" class="form-control" id="type_room">
+    						<option value="single eco">Simple economique</option>
+    						<option value="single balcon">Simple avec balcon +5€</option>
+    						<option value="double eco" selected>Double economique</option>
+    						<option value="double balcon">Double avec balcon</option>
+    						<option value="triple eco">Trible economique</option>
+    						<option value="triple balcon">Triple avec balcon</option>
+    					</Select>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <div class="form-group">
+              <label for="Prix">Prix</label>
+              <input type="number" name="price" value='' class="form-control" id="prix" width="2" readonly>
+            </div>
+          </div>
+          <div class="col-lg-6 col-lg-offset-5">
+              <button type="submit" class="btn btn-default"> Rechercher </button>
+          </div>
+  </form>
+  </fieldset>
+
+
+  <center>
+    <h1>GALERIES</h1></center>
+
+  <div class="container">
+    <br>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+              <li data-target="#myCarousel" data-slide-to="5"></li>
+            </ol>
+            <!-- For slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img class="img-responsive" src="photo/G1.jpg">
+              </div>
+              <div class="item">
+                <img class="img-responsive" src="photo/G2.jpg">
+              </div>
+              <div class="item">
+                <img class="img-responsive" src="photo/G3.jpg">
+              </div>
+              <div class="item">
+                <img class="img-responsive" src="photo/G4.jpg">
+              </div>
+              <div class="item">
+                <img class="img-responsive" src="photo/G5.jpg">
+              </div>
+            </div>
+
+          </div>
+          <div class="caption">
+            <p> Vue sur la capitale du parfum-Grasse</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+              <li data-target="#myCarousel" data-slide-to="5"></li>
+            </ol>
+            <!-- For slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img class="img-responsive" src="photo/H1.jpg">
+              </div>
+              <div class="item">
+                <img class="img-responsive" src="photo/H2.jpg">
+              </div>
+              <div class="item">
+                <img class="img-responsive" src="photo/H3.jpg">
+              </div>
+              <div class="item">
+                <img class="img-responsive" src="photo/H4.jpg">
+              </div>
+              <div class="item">
+                <img class="img-responsive" src="photo/H5.jpg">
+              </div>
+            </div>
+
+          </div>
+          <div class="caption">
+            <p> Hôtel</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+              <li data-target="#myCarousel" data-slide-to="5"></li>
+            </ol>
+            <!-- For slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img class="img-responsive" src="photo/C1.jpg">
+              </div>
+              <div class="item">
+                <img class="img-responsive" src="photo/C2.jpg">
+              </div>
+              <div class="item">
+                <img class="img-responsive" src="photo/C3.jpg">
+              </div>
+              <div class="item">
+                <img class="img-responsive" src="photo/C4.jpg">
+              </div>
+              <div class="item">
+                <img class="img-responsive" src="photo/C5.jpg">
+              </div>
+            </div>
+
+          </div>
+          <div class="caption">
+            <p> Chambre</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Fin group row -->
+
+
+    <!-- Section: services -->
+    <section id="service" class="home-section text-center bg-gray">
+
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow bounceInDown" data-wow-delay="0.4s">
+              <div class="section-heading">
+                <h2>Vos opinions</h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-lg-offset-5">
+        <hr class="marginbot-50">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="wow fadeInLeft" data-wow-delay="0.2s">
+          <div class="service-box">
+            <div class="service-icon">
+              <img src="img/icons/icon1.png" alt="" />
+            </div>
+            <div class="service-desc">
+              <h5>“Très bien situé, accueil sympathique, simple”</h5>
+              <p>
+                L'hotel est bien situé, à côté du palais des congrès ... Très belle vue sur la ville. L'accueil est chaleureux; la chambre était vaste...manque un peu de couleur; Le petit déjeuner pourrait être plus "diététique" mais correct.</p>
+              <p>Séjour du février 2017 - voyage d'affaires. Avis écrit par ELI.G</p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="wow fadeInUp" data-wow-delay="0.2s">
+          <div class="service-box">
+            <div class="service-icon">
+              <img src="img/icons/icon3.png" alt="" />
+            </div>
+            <div class="service-desc">
+              <h5>"Tres bon accueil"</h5>
+              <p>
+                <text-align>Un peu vétuste mais très propre. Personnel toujours aux petits soins, très accueillant, et très commerçants. Le petit déjeuner bien (rapport qualité prix) Chambre assez grande Bien situé par rapport au ventre ville
+                  <p> Séjour du juillet 2016 - voyage en famille. Avis écrit par FLO.R le juillet 2016</p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="wow fadeInUp" data-wow-delay="0.2s">
+          <div class="service-box">
+            <div class="service-icon">
+              <img src="img/icons/icon4.png" alt="" />
+            </div>
+            <div class="service-desc">
+              <h5>"Dépaysement assuré, charme de l'ancien et cordialité”</h5>
+              <p>
+                Si vous en avez assez des hôtels fades et inodores des Ibis, Novotel et autres chaines ou le lavabo, la baignoire sont en plastique lisse et fade, allez au Panorama ! L'hotel est certes "dans son jus", mais vous trouverez un bidet dans la salle de bain
+              <p> Avis écrit le 9 juin 2016 Par Odilon B </p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="wow fadeInRight" data-wow-delay="0.2s">
+          <div class="service-box">
+            <div class="service-icon">
+              <img src="img/icons/icon2.png" alt="" />
+            </div>
+            <div class="service-desc">
+              <h5>"Passage des amoureux"</h5>
+              <p>
+                Hotel, certes, un peu vétuste, mais bon accueil, propreté et literie corrects, le petit déjeuner continental est dans les normes. Par contre pour un séjour en hiver, le chauffage est très juste et je pense que absence de clim doit se faire sentir en été.
+                <p>Séjour du janvier 2017 - voyage en amoureux. Avis écrit par Gerollivier</p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- /Section: services -->
+
+  <!-- Section: contact-->
+  <section id="contact" class="home-section text-center">
+    <div class="heading-contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow bounceInDown" data-wow-delay="0.4s">
+              <div class="section-heading">
+                <h2>CONTACTEZ AVEC NOUS</h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-5">
+          <hr class="marginbot-50">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="boxed-grey">
+            <form id="contact-form" action="ReceptionMessage.php" method="POST" role="form" class="contactForm">
+              <div class="row">
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name">Nom et Prénom</label>
+                    <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email </label>
+                    <div class="form-group">
+                      <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                      <div class="validation"></div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="subject">Sujet</label>
+                    <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name">Message et commentaire</label>
+                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">Envoyer</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="widget-contact">
+            <address>
+    				  <strong>Hotel Panorama</strong><br>
+            2 cours Honoré Cresp,
+					06130 GRASSE
+					<br>
+				   Tél : 04 93 36 80 80
+           <br>
+				   Fax : 04 93 36 92 04
+				 </address>
+          <address>
+    				  <strong>Email</strong><br>
+    				  <a href="mailto:#">hotelpanorama@wanado.fr</a>
+    			</address>
+        </div>
+      </div>
+  </section>
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/bootstrap-datetimepicker.min.js"></script>
+  <script src="js/myscript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+img {
+max-width: 100%;
+height: auto;
+margin-top: 15px;
+}
+
+.hover-row {
+position: relative;
+}
+
+.hover-row .hover {
+background: #28c3ab;
+position: absolute;
+width: 25%;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+z-index: -1;
+-webkit-transition: all 0.4s ease-out;
+transition: all 0.4s ease-out;
+left: -100%;
+}
+
+.hover-row .hover:hover {
+background: red;
+}
+
+.hover-row .col-xs-3:nth-child(1):hover ~ .hover {
+left: 0%;
+}
+.hover-row .col-xs-3:nth-child(2):hover ~ .hover {
+left: 25%;
+}
+.hover-row .col-xs-3:nth-child(3):hover ~ .hover {
+left: 50%;
+}
+.hover-row .col-xs-3:nth-child(4):hover ~ .hover {
+left: 75%;
+}
