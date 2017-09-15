@@ -10,15 +10,17 @@
 
   <title>Hotel Panorama </title>
 
+
+  <link href="color/default.css" rel="stylesheet">
+
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/bootstrap.css" type="text/css">
   <link href="css/animate.css">
-  <link href="css/bootstrap-datetimepicker.css" rel="stylesheet">
+  {# <link href="css/bootstrap-datetimepicker.css" rel="stylesheet">#}
 
-  <!-- <link href="css/jquery-ui.css" rel="stylesheet" /> -->
+  <link href="css/jquery-ui.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <link href="color/default.css" rel="stylesheet">
 
 
 </head>
@@ -82,7 +84,7 @@
           <div class="col-sm-6 col-md-3">
             <div class="form-group">
               <label for="arrivee">Arrivée</label>
-              <input name=arrivee type='datepicker' class="form-control" id="dateA">
+              <input name='arrivee' type='text' class='form-control' id="dateA">
             </div>
           </div>
 
@@ -90,16 +92,16 @@
               <div class="col-sm-6 col-md-3">
                 <div class="form-group">
                   <label for="depart">Départ</label>
-                  <input name=depart type='datepicker' class="form-control" id="dateD">
+                  <input name='depart' type='text' class='form-control' id="dateD">
                 </div>
               </div>
 
           <div class="col-sm-6 col-md-3">
             <div class="form-group">
               <label for="TypeChambre">Type de chambre</label>
-              <select name="type" class="form-control" id="type_room">
+              <select name="type" id="type_room"  class='form-control'>
     						<option value="single eco">Simple economique</option>
-    						<option value="single balcon">Simple avec balcon +5€</option>
+    						<option value="single balcon">Simple avec balcon</option>
     						<option value="double eco" selected>Double economique</option>
     						<option value="double balcon">Double avec balcon</option>
     						<option value="triple eco">Trible economique</option>
@@ -110,7 +112,7 @@
           <div class="col-sm-6 col-md-2">
             <div class="form-group">
               <label for="Prix">Prix</label>
-              <input type="number" name="price" value='' class="form-control" id="prix" width="2" readonly>
+              <input type="number" name="price" value=''  class='form-control' id="prix" width="2" readonly>
             </div>
           </div>
           <div class="col-lg-6 col-lg-offset-5">
@@ -433,7 +435,7 @@
   <script src="js/jquery.scrollTo.js"></script>
   <script src="js/wow.min.js"></script>
   <script src="js/custom.js"></script>
-  <script src="js/bootstrap-datetimepicker.min.js"></script>
+  {# <script src="js/bootstrap-datetimepicker.min.js"></script>#}
   <script src="js/myscript.js"></script>
 </body>
 
