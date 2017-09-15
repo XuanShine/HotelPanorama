@@ -47,6 +47,11 @@ def map():
     return render_template('map.html')
 
 
+@app.route("/savoir.html")
+def savoir():
+    return render_template('savoir.html')
+
+
 @app.route("/admin")
 def admin():
     return render_template('admin.html')
