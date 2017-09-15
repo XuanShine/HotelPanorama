@@ -25,10 +25,26 @@ class CustomFlask(Flask):
 app = CustomFlask(__name__)
 
 
-
 @app.route("/")
-def hello():
+@app.route('/index')
+@app.route('/index.html')
+def index():
     return render_template('index.html')
+
+
+@app.route("/chambre.html")
+def room():
+    return render_template('chambre.html')
+
+
+@app.route("/equipement.html")
+def equipement():
+    return render_template('equipement.html')
+
+
+@app.route("/map.html")
+def map():
+    return render_template('map.html')
 
 
 @app.route("/admin")
