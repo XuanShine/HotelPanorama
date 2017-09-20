@@ -1,6 +1,7 @@
 from flask import Flask, render_template, send_from_directory
 from flask import redirect, request, flash
 from os import path
+import os
 
 from werkzeug.utils import secure_filename
 import yaml
@@ -23,7 +24,7 @@ class CustomFlask(Flask):
 
 
 app = CustomFlask(__name__)
-app.secret_key = 'super secret key'
+app.secret_key = os.environ["SECRET_KEY"]
 app.config['SESSION_TYPE'] = 'filesystem'
 
 
@@ -124,6 +125,6 @@ def send_color(path_file):
 
 
 if __name__ == "__main__":
-
+    app.secret_key = "my super secret key"
     app.debug = True
     app.run()
