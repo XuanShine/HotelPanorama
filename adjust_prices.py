@@ -18,6 +18,7 @@ def list_number_room_booked(file):
         depart = format_date(reservation[4])
         one_day = timedelta(days=1)
         number = reservation[7]
+        # FIXME: éviter les réservations annulées.
         while arrive != depart:
             try:
                 result[arrive] += number

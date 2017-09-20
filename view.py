@@ -17,8 +17,8 @@ class CustomFlask(Flask):
         block_end_string='%)',
         variable_start_string='((',
         variable_end_string='))',
-        comment_start_string='(#',
-        comment_end_string='#)',
+        comment_start_string='{#',
+        comment_end_string='#}',
         ))
 
 
@@ -61,9 +61,10 @@ def admin():
 
 @app.route('/prix/<int:year>-<int:month>-<int:day>/<type_room>')
 def price(year, month, day, type_room):
-    with open('price.yaml', 'r') as f_in:
-        price = (yaml.load(f_in.read())[date(year, month, day)]
-                                       [type_room.replace('_', ' ')])
+    # with open('price.yaml', 'r') as f_in:
+    #     price = (yaml.load(f_in.read())[date(year, month, day)]
+    #                                    [type_room.replace('_', ' ')])
+    price = 60
     return str(price)
 
 

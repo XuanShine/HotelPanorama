@@ -14,13 +14,14 @@
   <link href="color/default.css" rel="stylesheet">
 
   <!-- Bootstrap Core CSS -->
+
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="css/bootstrap.css" type="text/css">
-  <link href="css/animate.css">
+  {# <link href="css/bootstrap.css" type="text/css">#}
   {# <link href="css/bootstrap-datetimepicker.css" rel="stylesheet">#}
 
   <link href="css/jquery-ui.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+
 
 
 </head>
@@ -32,10 +33,14 @@
       <div id="load"></div>
     </div>
 
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-expand-sm navbar-fixed-top" role="navigation">
+
+
       <div class="container">
         <div class="navbar-header page-scroll">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                    <i class="fa fa-bars"></i>
                     <i class="fa fa-bars"></i>
           </button>
           <a class="navbar-brand" href="index.html">
@@ -73,7 +78,7 @@
   <!-- Section: Reservation -->
   <br>
   <br>
-  <FORM method="get" action="formulaireRegistration.php">
+  <form method="post" id="reservation_form">
     <div class="container">
       <fieldset class="scheduler-border">
         <legend class="scheduler-border">
@@ -116,7 +121,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-lg-offset-5">
-              <button type="submit" class="btn btn-default"> Rechercher </button>
+              <a type="submit" class="btn btn-default" href="https://www.booking.com/hotel/fr/inter-panorama.fr.html"> Rechercher </a>
           </div>
   </form>
   </fieldset>
@@ -435,7 +440,7 @@
   <script src="js/jquery.scrollTo.js"></script>
   <script src="js/wow.min.js"></script>
   <script src="js/custom.js"></script>
-  {# <script src="js/bootstrap-datetimepicker.min.js"></script>#}
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.4/vue.js'></script>
   <script src="js/myscript.js"></script>
 </body>
 
