@@ -99,7 +99,7 @@ def info_cb():
         password = request.form['password']
         id_reservation = request.form['n_reservation']
         try:
-            with open('crypt_data', 'rb') as f_in:
+            with open(os.environ['CRYPT_DATA'], 'rb') as f_in:
                 result = decrypt(password, f_in.read()).decode('utf8')
         except DecryptionException:
             return 'DecryptionException: Mauvais mot de passe'
