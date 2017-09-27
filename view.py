@@ -2,14 +2,17 @@ from flask import Flask, render_template, send_from_directory
 from flask import redirect, request, flash
 from os import path
 import os
+from flask_mail import Mail
+
 
 from werkzeug.utils import secure_filename
 import yaml
 from datetime import date
 import pdb
 from adjust_prices import list_number_room_booked
+from simplecrypt import decrypt
+from simplecrypt import DecryptionException
 
-# app = Flask(__name__)
 
 class CustomFlask(Flask):
     jinja_options = Flask.jinja_options.copy()
@@ -24,8 +27,24 @@ class CustomFlask(Flask):
 
 
 app = CustomFlask(__name__)
-app.secret_key = os.environ["SECRET_KEY"]
-app.config['SESSION_TYPE'] = 'filesystem'
+mail = Mail(app)
+
+app.secret_key = os.environ.get("SECRET_KEY", "nasuiten aituneatnuiet naiute")
+config = {
+            'SESSION_TYPE': 'filesystem',
+            # email server
+            'MAIL_SERVER': 'localhost',
+            'MAIL_PORT': 25,
+            'MAIL_USE_TLS': False,
+            'MAIL_USE_SSL': False,
+            'MAIL_USERNAME': None,
+            'MAIL_PASSWORD': None
+         }
+app.config.update(config)
+
+
+# administrator list
+ADMINS = ['hotel@panoramagrasse.com']
 
 
 @app.route("/")
@@ -74,6 +93,24 @@ def price_main():
     return render_template('price.html')
 
 
+@app.route('/info_cb', methods=['GET', 'POST'])
+def info_cb():
+    if request.method == 'POST':
+        password = request.form['password']
+        id_reservation = request.form['n_reservation']
+        try:
+            with open('crypt_data', 'rb') as f_in:
+                result = decrypt(password, f_in.read()).decode('utf8')
+        except DecryptionException:
+            return 'DecryptionException: Mauvais mot de passe'
+        except UnicodeDecodeError:
+            return 'UnicodeDecodeError: Probablement mauvais mot de passe'
+        return yaml.dump(yaml.load(result).get(id_reservation,
+                                               {'text': 'pas cette cb'}))
+
+    return render_template('info_cb.html')
+
+
 @app.route('/ajuster_prix', methods=['GET', 'POST'])
 def adjust_prices():
     if request.method == 'POST':
@@ -94,7 +131,7 @@ def adjust_prices():
             file.save(path.join('tmp', filename))
             text = yaml.dump(list_number_room_booked(
                                 path.join('tmp', filename)),
-                                default_flow_style=False)
+                             default_flow_style=False)
             return str(text).replace('\n', '<br>')
     return render_template('adjust_price.html')
 
