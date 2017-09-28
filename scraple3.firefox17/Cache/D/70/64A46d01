@@ -1,0 +1,706 @@
+
+
+
+
+<!doctype html>
+
+<html class="windows x86 no-js" lang="fr" dir="ltr" data-latest-firefox="56.0" data-esr-versions="52.3.0" data-optimizely-project-id="246059135" data-gtm-container-id="GTM-MW3R8V"  data-stub-attribution-rate="1.0">
+  <head>
+    <meta charset="utf-8">
+
+    <script type="text/javascript" src="/media/js/site-bundle.5f2462a3ca26.js" charset="utf-8"></script>
+    
+
+<!--
+             _.-~-.
+           7''  Q..\
+        _7         (_
+      _7  _/    _q.  /
+    _7 . ___  /VVvv-'_                                            .
+   7/ / /~- \_\\      '-._     .-'                      /       //
+  ./ ( /-~-/||'=.__  '::. '-~'' {             ___   /  //     ./{
+ V   V-~-~| ||   __''_   ':::.   ''~-~.___.-'' _/  // / {_   /  {  /
+  VV/-~-~-|/ \ .'__'. '.    '::                     _ _ _        ''.
+  / /~~~~||VVV/ /  \ )  \        _ __ ___   ___ ___(_) | | __ _   .::'
+ / (~-~-~\\.-' /    \'   \::::. | '_ ` _ \ / _ \_  / | | |/ _` | :::'
+/..\    /..\__/      '     '::: | | | | | | (_) / /| | | | (_| | ::'
+vVVv    vVVv                 ': |_| |_| |_|\___/___|_|_|_|\__,_| ''
+
+Hi there, nice to meet you!
+
+Interested in having a direct impact on hundreds of millions of users? Join
+Mozilla, and become part of a global community that’s helping to build a
+brighter future for the Web.
+
+Visit https://careers.mozilla.org to learn about our current job openings.
+Visit https://www.mozilla.org/contribute for more ways to get involved and
+help support Mozilla.
+-->
+
+    <meta name="robots" content="noindex">
+
+    <title>Bienvenue dans Firefox</title>
+    <meta name="description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mozilla">
+    <meta property="og:locale" content="fr">
+    <meta property="og:url" content="https://www.mozilla.org/fr/firefox/">
+    <meta property="og:image" content="https://www.mozilla.org/media/img/firefox/template/page-image.af8027a425de.png">
+    <meta property="og:title" content="
+  Choisissez le navigateur indépendant
+">
+    <meta property="og:description" content="
+  Firefox est gratuit, à but non lucratif et sans compromis. Choisir Firefox ce n’est pas seulement choisir un navigateur, c’est voter pour la liberté individuelle.
+">
+    <meta property="fb:page_id" content="14696440021">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@firefox">
+    <meta name="twitter:domain" content="mozilla.org">
+    <meta name="twitter:app:name:googleplay" content="Firefox">
+    <meta name="twitter:app:id:googleplay" content="org.mozilla.firefox">
+    <meta name="twitter:app:name:iphone" content="Firefox">
+    <meta name="twitter:app:id:iphone" content="989804926">
+    <meta name="twitter:app:name:ipad" content="Firefox">
+    <meta name="twitter:app:id:ipad" content="989804926">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/media/img/firefox/ios-icon-180.7a8401f21915.png">
+    <link rel="icon" type="image/png" sizes="196x196" href="/media/img/firefox/favicon-196.223e1bcaf067.png">
+    <link rel="shortcut icon" href="/media/img/firefox/favicon.dc6635050bf5.ico">
+        <link rel="canonical" hreflang="fr" href="https://www.mozilla.org/fr/firefox/17.0/firstrun/">
+    <link rel="alternate" hreflang="x-default" href="https://www.mozilla.org/en-US/firefox/17.0/firstrun/">
+    <link rel="alternate" hreflang="af" href="https://www.mozilla.org/af/firefox/17.0/firstrun/" title="Afrikaans">
+        <link rel="alternate" hreflang="an" href="https://www.mozilla.org/an/firefox/17.0/firstrun/" title="aragonés">
+        <link rel="alternate" hreflang="ar" href="https://www.mozilla.org/ar/firefox/17.0/firstrun/" title="عربي">
+        <link rel="alternate" hreflang="as" href="https://www.mozilla.org/as/firefox/17.0/firstrun/" title="অসমীয়া">
+        <link rel="alternate" hreflang="az" href="https://www.mozilla.org/az/firefox/17.0/firstrun/" title="Azərbaycanca">
+        <link rel="alternate" hreflang="be" href="https://www.mozilla.org/be/firefox/17.0/firstrun/" title="Беларуская">
+        <link rel="alternate" hreflang="bg" href="https://www.mozilla.org/bg/firefox/17.0/firstrun/" title="Български">
+        <link rel="alternate" hreflang="bn-BD" href="https://www.mozilla.org/bn-BD/firefox/17.0/firstrun/" title="বাংলা (বাংলাদেশ)">
+        <link rel="alternate" hreflang="bn-IN" href="https://www.mozilla.org/bn-IN/firefox/17.0/firstrun/" title="বাংলা (ভারত)">
+        <link rel="alternate" hreflang="br" href="https://www.mozilla.org/br/firefox/17.0/firstrun/" title="Brezhoneg">
+        <link rel="alternate" hreflang="bs" href="https://www.mozilla.org/bs/firefox/17.0/firstrun/" title="Bosanski">
+        <link rel="alternate" hreflang="ca" href="https://www.mozilla.org/ca/firefox/17.0/firstrun/" title="Català">
+        <link rel="alternate" hreflang="cs" href="https://www.mozilla.org/cs/firefox/17.0/firstrun/" title="Čeština">
+        <link rel="alternate" hreflang="cy" href="https://www.mozilla.org/cy/firefox/17.0/firstrun/" title="Cymraeg">
+        <link rel="alternate" hreflang="da" href="https://www.mozilla.org/da/firefox/17.0/firstrun/" title="Dansk">
+        <link rel="alternate" hreflang="de" href="https://www.mozilla.org/de/firefox/17.0/firstrun/" title="Deutsch">
+        <link rel="alternate" hreflang="el" href="https://www.mozilla.org/el/firefox/17.0/firstrun/" title="Ελληνικά">
+        <link rel="alternate" hreflang="en-GB" href="https://www.mozilla.org/en-GB/firefox/17.0/firstrun/" title="English (British)">
+        <link rel="alternate" hreflang="en" href="https://www.mozilla.org/en-US/firefox/17.0/firstrun/" title="English">
+        <link rel="alternate" hreflang="en-CA" href="https://www.mozilla.org/en-US/firefox/17.0/firstrun/" title="English (Canada)">
+        <link rel="alternate" hreflang="en-ZA" href="https://www.mozilla.org/en-ZA/firefox/17.0/firstrun/" title="English (South African)">
+        <link rel="alternate" hreflang="eo" href="https://www.mozilla.org/eo/firefox/17.0/firstrun/" title="Esperanto">
+        <link rel="alternate" hreflang="es-AR" href="https://www.mozilla.org/es-AR/firefox/17.0/firstrun/" title="Español (de Argentina)">
+        <link rel="alternate" hreflang="es-CL" href="https://www.mozilla.org/es-CL/firefox/17.0/firstrun/" title="Español (de Chile)">
+        <link rel="alternate" hreflang="es-ES" href="https://www.mozilla.org/es-ES/firefox/17.0/firstrun/" title="Español (de España)">
+        <link rel="alternate" hreflang="es-MX" href="https://www.mozilla.org/es-MX/firefox/17.0/firstrun/" title="Español (de México)">
+        <link rel="alternate" hreflang="et" href="https://www.mozilla.org/et/firefox/17.0/firstrun/" title="Eesti keel">
+        <link rel="alternate" hreflang="eu" href="https://www.mozilla.org/eu/firefox/17.0/firstrun/" title="Euskara">
+        <link rel="alternate" hreflang="fa" href="https://www.mozilla.org/fa/firefox/17.0/firstrun/" title="فارسی">
+        <link rel="alternate" hreflang="ff" href="https://www.mozilla.org/ff/firefox/17.0/firstrun/" title="Pulaar-Fulfulde">
+        <link rel="alternate" hreflang="fi" href="https://www.mozilla.org/fi/firefox/17.0/firstrun/" title="suomi">
+        <link rel="alternate" hreflang="fr" href="https://www.mozilla.org/fr/firefox/17.0/firstrun/" title="Français">
+        <link rel="alternate" hreflang="fy-NL" href="https://www.mozilla.org/fy-NL/firefox/17.0/firstrun/" title="Frysk">
+        <link rel="alternate" hreflang="ga-IE" href="https://www.mozilla.org/ga-IE/firefox/17.0/firstrun/" title="Gaeilge">
+        <link rel="alternate" hreflang="gd" href="https://www.mozilla.org/gd/firefox/17.0/firstrun/" title="Gàidhlig">
+        <link rel="alternate" hreflang="gl" href="https://www.mozilla.org/gl/firefox/17.0/firstrun/" title="Galego">
+        <link rel="alternate" hreflang="gu-IN" href="https://www.mozilla.org/gu-IN/firefox/17.0/firstrun/" title="ગુજરાતી (ભારત)">
+        <link rel="alternate" hreflang="he" href="https://www.mozilla.org/he/firefox/17.0/firstrun/" title="עברית">
+        <link rel="alternate" hreflang="hi-IN" href="https://www.mozilla.org/hi-IN/firefox/17.0/firstrun/" title="हिन्दी (भारत)">
+        <link rel="alternate" hreflang="hr" href="https://www.mozilla.org/hr/firefox/17.0/firstrun/" title="Hrvatski">
+        <link rel="alternate" hreflang="hu" href="https://www.mozilla.org/hu/firefox/17.0/firstrun/" title="magyar">
+        <link rel="alternate" hreflang="hy-AM" href="https://www.mozilla.org/hy-AM/firefox/17.0/firstrun/" title="Հայերեն">
+        <link rel="alternate" hreflang="id" href="https://www.mozilla.org/id/firefox/17.0/firstrun/" title="Bahasa Indonesia">
+        <link rel="alternate" hreflang="is" href="https://www.mozilla.org/is/firefox/17.0/firstrun/" title="íslenska">
+        <link rel="alternate" hreflang="it" href="https://www.mozilla.org/it/firefox/17.0/firstrun/" title="Italiano">
+        <link rel="alternate" hreflang="ja" href="https://www.mozilla.org/ja/firefox/17.0/firstrun/" title="日本語">
+        <link rel="alternate" hreflang="ka" href="https://www.mozilla.org/ka/firefox/17.0/firstrun/" title="ქართული">
+        <link rel="alternate" hreflang="kk" href="https://www.mozilla.org/kk/firefox/17.0/firstrun/" title="Қазақ">
+        <link rel="alternate" hreflang="km" href="https://www.mozilla.org/km/firefox/17.0/firstrun/" title="ខ្មែរ">
+        <link rel="alternate" hreflang="kn" href="https://www.mozilla.org/kn/firefox/17.0/firstrun/" title="ಕನ್ನಡ">
+        <link rel="alternate" hreflang="ko" href="https://www.mozilla.org/ko/firefox/17.0/firstrun/" title="한국어">
+        <link rel="alternate" hreflang="lt" href="https://www.mozilla.org/lt/firefox/17.0/firstrun/" title="Lietuvių">
+        <link rel="alternate" hreflang="lv" href="https://www.mozilla.org/lv/firefox/17.0/firstrun/" title="Latviešu">
+        <link rel="alternate" hreflang="mk" href="https://www.mozilla.org/mk/firefox/17.0/firstrun/" title="Македонски">
+        <link rel="alternate" hreflang="ml" href="https://www.mozilla.org/ml/firefox/17.0/firstrun/" title="മലയാളം">
+        <link rel="alternate" hreflang="mr" href="https://www.mozilla.org/mr/firefox/17.0/firstrun/" title="मराठी">
+        <link rel="alternate" hreflang="ms" href="https://www.mozilla.org/ms/firefox/17.0/firstrun/" title="Melayu">
+        <link rel="alternate" hreflang="my" href="https://www.mozilla.org/my/firefox/17.0/firstrun/" title="မြန်မာဘာသာ">
+        <link rel="alternate" hreflang="nb-NO" href="https://www.mozilla.org/nb-NO/firefox/17.0/firstrun/" title="Norsk bokmål">
+        <link rel="alternate" hreflang="ne-NP" href="https://www.mozilla.org/ne-NP/firefox/17.0/firstrun/" title="नेपाली">
+        <link rel="alternate" hreflang="nl" href="https://www.mozilla.org/nl/firefox/17.0/firstrun/" title="Nederlands">
+        <link rel="alternate" hreflang="nn-NO" href="https://www.mozilla.org/nn-NO/firefox/17.0/firstrun/" title="Norsk nynorsk">
+        <link rel="alternate" hreflang="oc" href="https://www.mozilla.org/oc/firefox/17.0/firstrun/" title="occitan (lengadocian)">
+        <link rel="alternate" hreflang="or" href="https://www.mozilla.org/or/firefox/17.0/firstrun/" title="ଓଡ଼ିଆ">
+        <link rel="alternate" hreflang="pa-IN" href="https://www.mozilla.org/pa-IN/firefox/17.0/firstrun/" title="ਪੰਜਾਬੀ (ਭਾਰਤ)">
+        <link rel="alternate" hreflang="pl" href="https://www.mozilla.org/pl/firefox/17.0/firstrun/" title="Polski">
+        <link rel="alternate" hreflang="pt-BR" href="https://www.mozilla.org/pt-BR/firefox/17.0/firstrun/" title="Português (do Brasil)">
+        <link rel="alternate" hreflang="pt-PT" href="https://www.mozilla.org/pt-PT/firefox/17.0/firstrun/" title="Português (Europeu)">
+        <link rel="alternate" hreflang="rm" href="https://www.mozilla.org/rm/firefox/17.0/firstrun/" title="rumantsch">
+        <link rel="alternate" hreflang="ro" href="https://www.mozilla.org/ro/firefox/17.0/firstrun/" title="Română">
+        <link rel="alternate" hreflang="ru" href="https://www.mozilla.org/ru/firefox/17.0/firstrun/" title="Русский">
+        <link rel="alternate" hreflang="si" href="https://www.mozilla.org/si/firefox/17.0/firstrun/" title="සිංහල">
+        <link rel="alternate" hreflang="sk" href="https://www.mozilla.org/sk/firefox/17.0/firstrun/" title="slovenčina">
+        <link rel="alternate" hreflang="sl" href="https://www.mozilla.org/sl/firefox/17.0/firstrun/" title="Slovenščina">
+        <link rel="alternate" hreflang="sq" href="https://www.mozilla.org/sq/firefox/17.0/firstrun/" title="Shqip">
+        <link rel="alternate" hreflang="sr" href="https://www.mozilla.org/sr/firefox/17.0/firstrun/" title="Српски">
+        <link rel="alternate" hreflang="sv-SE" href="https://www.mozilla.org/sv-SE/firefox/17.0/firstrun/" title="Svenska">
+        <link rel="alternate" hreflang="ta" href="https://www.mozilla.org/ta/firefox/17.0/firstrun/" title="தமிழ்">
+        <link rel="alternate" hreflang="te" href="https://www.mozilla.org/te/firefox/17.0/firstrun/" title="తెలుగు">
+        <link rel="alternate" hreflang="th" href="https://www.mozilla.org/th/firefox/17.0/firstrun/" title="ไทย">
+        <link rel="alternate" hreflang="tr" href="https://www.mozilla.org/tr/firefox/17.0/firstrun/" title="Türkçe">
+        <link rel="alternate" hreflang="uk" href="https://www.mozilla.org/uk/firefox/17.0/firstrun/" title="Українська">
+        <link rel="alternate" hreflang="ur" href="https://www.mozilla.org/ur/firefox/17.0/firstrun/" title="اُردو">
+        <link rel="alternate" hreflang="uz" href="https://www.mozilla.org/uz/firefox/17.0/firstrun/" title="Oʻzbek tili">
+        <link rel="alternate" hreflang="vi" href="https://www.mozilla.org/vi/firefox/17.0/firstrun/" title="Tiếng Việt">
+        <link rel="alternate" hreflang="xh" href="https://www.mozilla.org/xh/firefox/17.0/firstrun/" title="isiXhosa">
+        <link rel="alternate" hreflang="zh-CN" href="https://www.mozilla.org/zh-CN/firefox/17.0/firstrun/" title="中文 (简体)">
+        <link rel="alternate" hreflang="zh-TW" href="https://www.mozilla.org/zh-TW/firefox/17.0/firstrun/" title="正體中文 (繁體)">
+        
+    
+
+    
+
+
+    <!--[if lte IE 8]>
+      
+      <script src="/media/js/libs/html5shiv.d580a4cd1cb4.js"></script>
+
+      
+      <link href="/media/css/oldIE-bundle.66bd01908ec5.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+    <!--[if !lte IE 8]><!-->
+    
+    
+      <link href="/media/css/common-bundle.ae80c28ff5db.css" rel="stylesheet" type="text/css" />
+    
+
+    
+    
+  <link href="/media/css/firefox_tour_none-bundle.d1e93b9921ea.css" rel="stylesheet" type="text/css" />
+
+    <!--<![endif]-->
+
+    
+  
+
+
+    
+
+    
+    
+      <!--
+Read more about our custom configuration and use of Google Analytics here:
+https://bugzilla.mozilla.org/show_bug.cgi?id=1122305#c8
+-->
+
+<!-- Google Tag Manager -->
+<!-- Customized for Mozilla.org-->
+<!-- Region Container: NONE -->
+<!-- Rollup Container: System Filtered -->
+<!-- Site Container: NONE -->
+
+
+  <script type="text/javascript" src="/media/js/gtm-snippet-bundle.e956015fe7f3.js" charset="utf-8"></script>
+
+<!-- End Google Tag Manager -->
+    
+  </head>
+
+  <body id="firstrun" class="html-ltr sky">
+    <div id="strings"
+      data-global-close="Fermer"
+      data-global-next="Suivant"
+      data-global-previous="Précédent"
+      data-global-update-firefox="Mettre à jour Firefox"
+      data-global-fx-out-of-date-banner-heading="Votre version de Firefox n’est pas à jour."
+      data-global-fx-out-of-date-banner-message="Installez la dernière version de Firefox pour continuer de naviguer en toute sécurité."
+      data-global-fx-out-of-date-banner-confirm="Mettre à jour Firefox"
+      ></div>
+    <div id="outer-wrapper">
+    <div id="wrapper">
+
+    
+  <header id="masthead">
+    <div id="tabzilla">
+      <a href="/fr/" data-link-type="nav" data-link-name="tabzilla">Mozilla</a>
+    </div>
+    
+    
+    
+  </header>
+
+
+    
+      
+    
+
+    
+  <article id="tour-page" data-telemetry="australis-29-release-no-tour">
+    
+  <header role="banner">
+    <div class="logo"></div>
+    <div class="stage">
+      <h1>Bienvenue dans Firefox</h1>
+      <p>Engagé pour vous, votre vie privée et le Web ouvert.</p>
+    </div>
+  </header>
+
+    <div class="main-container">
+      <section class="sync">
+        <div class="inner-container">
+          
+  <div class="sync-content">
+    <header>
+      <h2>Vous utilisez Firefox sur un autre appareil&nbsp;?</h2>
+      <p>Nul besoin de tout recommencer. Accédez à votre historique, vos marque-pages et plus encore.</p>
+    </header>
+    <div class="sync-cta">
+      <a href="/fr/firefox/features/sync/" class="button" data-link-type="button" data-link-name="Get started with Sync">Démarrer avec Sync</a>
+    </div>
+  </div>
+  <div class="sync-anim-wrapper">
+    <div class="sync-anim">
+  <div class="device laptop">
+    <div class="inner">
+      <div class="logo"></div>
+      <div class="icon history"></div>
+      <div class="icon bookmarks"></div>
+      <div class="icon passwords"></div>
+    </div>
+    <div class="arrows"></div>
+  </div>
+  <div class="device tablet">
+    <div class="inner">
+      <div class="logo"></div>
+      <div class="icon history"></div>
+      <div class="icon bookmarks"></div>
+      <div class="icon passwords"></div>
+    </div>
+  </div>
+  <div class="device phone">
+    <div class="inner">
+      <div class="logo"></div>
+      <div class="icon history"></div>
+      <div class="icon bookmarks"></div>
+      <div class="icon passwords"></div>
+    </div>
+  </div>
+</div>
+  </div>
+
+        </div>
+      </section>
+    </div>
+    <aside class="separator">
+      
+  
+
+
+
+
+
+
+  
+    <div id="footer-email-errors" class="hidden">
+      <ul class="errorlist"></ul>
+    </div>
+  
+
+  <form class="billboard newsletter-form footer-newsletter-form"
+        id="newsletter-form" action="/fr/newsletter/" method="post">
+    <input id="id_newsletters" maxlength="100" name="newsletters" type="hidden" value="mozilla-and-you" />
+    <input type="hidden" name="source_url" value="https://www.mozilla.org/fr/firefox/17.0/firstrun/">
+
+    
+      <div class="form-title">
+        <h3>Recevoir des informations sur Firefox</h3>
+      
+      </div>
+    
+
+    <div class="form-contents">
+      <div class="field field-email ">
+        <input id="id_email" name="email" placeholder="ADRESSE ÉLECTRONIQUE" required="required" type="email" />
+      </div>
+
+      <div id="form-details">
+        
+          <div class="field field-country">
+            <select aria-required="true" id="id_country" name="country" required="required">
+<option value="" selected="selected">Sélectionnez votre pays</option>
+<option value="af">Afghanistan</option>
+<option value="za">Afrique du Sud</option>
+<option value="qz">Akrotiri</option>
+<option value="al">Albanie</option>
+<option value="dz">Algérie</option>
+<option value="de">Allemagne</option>
+<option value="ad">Andorre</option>
+<option value="ao">Angola</option>
+<option value="ai">Anguilla</option>
+<option value="aq">Antarctique</option>
+<option value="ag">Antigua-et-Barbuda</option>
+<option value="sa">Arabie Saoudite</option>
+<option value="ar">Argentine</option>
+<option value="am">Arménie</option>
+<option value="aw">Aruba</option>
+<option value="xu">Atoll Johnston</option>
+<option value="xl">Atoll Palmyra</option>
+<option value="au">Australie</option>
+<option value="at">Autriche</option>
+<option value="az">Azerbaïdjan</option>
+<option value="bs">Bahamas</option>
+<option value="bh">Bahreïn</option>
+<option value="xg">Bande de Gaza</option>
+<option value="bd">Bangladesh</option>
+<option value="bb">Barbade</option>
+<option value="qs">Bassas da India</option>
+<option value="be">Belgique</option>
+<option value="bz">Belize</option>
+<option value="bm">Bermudes</option>
+<option value="bt">Bhoutan</option>
+<option value="mm">Birmanie</option>
+<option value="bo">Bolivie</option>
+<option value="bq">Bonaire, Saint-Eustache et Saba</option>
+<option value="ba">Bosnie-Herzégovine</option>
+<option value="bw">Botswana</option>
+<option value="bv">Bouvet, île</option>
+<option value="bn">Brunéi Darussalam</option>
+<option value="br">Brésil</option>
+<option value="bg">Bulgarie</option>
+<option value="bf">Burkina Faso</option>
+<option value="bi">Burundi</option>
+<option value="by">Bélarus</option>
+<option value="bj">Bénin</option>
+<option value="kh">Cambodge</option>
+<option value="cm">Cameroun</option>
+<option value="ca">Canada</option>
+<option value="cv">Cap-Vert</option>
+<option value="ky">Caïmans, îles</option>
+<option value="cf">Centrafricaine, République</option>
+<option value="cl">Chili</option>
+<option value="cn">Chine</option>
+<option value="cx">Christmas, île</option>
+<option value="cy">Chypre</option>
+<option value="xw">Cisjordanie</option>
+<option value="cc">Cocos (Keeling), îles</option>
+<option value="co">Colombie</option>
+<option value="km">Comores</option>
+<option value="cg">Congo-Brazzaville</option>
+<option value="cd">Congo-Kinshasa</option>
+<option value="ck">Cook, îles</option>
+<option value="kp">Corée du Nord</option>
+<option value="kr">Corée du Sud</option>
+<option value="cr">Costa Rica</option>
+<option value="hr">Croatie</option>
+<option value="cu">Cuba</option>
+<option value="cw">Curaçao</option>
+<option value="ci">Côte d’Ivoire</option>
+<option value="dk">Danemark</option>
+<option value="xd">Dhekelia</option>
+<option value="dg">Diego Garcia</option>
+<option value="dj">Djibouti</option>
+<option value="do">Dominicaine, République</option>
+<option value="dm">Dominique</option>
+<option value="sv">El Salvador</option>
+<option value="es">Espagne</option>
+<option value="ee">Estonie</option>
+<option value="fj">Fidji</option>
+<option value="fi">Finlande</option>
+<option value="fr">France</option>
+<option value="fo">Féroé, îles</option>
+<option value="ga">Gabon</option>
+<option value="gm">Gambie</option>
+<option value="gh">Ghana</option>
+<option value="gi">Gibraltar</option>
+<option value="gd">Grenade</option>
+<option value="gl">Groenland</option>
+<option value="gr">Grèce</option>
+<option value="gp">Guadeloupe</option>
+<option value="gu">Guam</option>
+<option value="gt">Guatemala</option>
+<option value="gg">Guernesey</option>
+<option value="gn">Guinée</option>
+<option value="gq">Guinée Équatoriale</option>
+<option value="gw">Guinée-Bissau</option>
+<option value="gy">Guyana</option>
+<option value="gf">Guyane Française</option>
+<option value="ge">Géorgie</option>
+<option value="gs">Géorgie du Sud et les îles Sandwich du Sud</option>
+<option value="ht">Haïti</option>
+<option value="hm">Heard, îles et McDonald, îles</option>
+<option value="hn">Honduras</option>
+<option value="hk">Hong-Kong</option>
+<option value="hu">Hongrie</option>
+<option value="in">Inde</option>
+<option value="id">Indonésie</option>
+<option value="ir">Iran</option>
+<option value="iq">Iraq</option>
+<option value="ie">Irlande</option>
+<option value="is">Islande</option>
+<option value="il">Israël</option>
+<option value="it">Italie</option>
+<option value="jm">Jamaïque</option>
+<option value="jp">Japon</option>
+<option value="je">Jersey</option>
+<option value="jo">Jordanie</option>
+<option value="kz">Kazakhstan</option>
+<option value="ke">Kenya</option>
+<option value="kg">Kirghizistan</option>
+<option value="ki">Kiribati</option>
+<option value="xk">Kosovo</option>
+<option value="kw">Koweït</option>
+<option value="la">Laos</option>
+<option value="ls">Lesotho</option>
+<option value="lv">Lettonie</option>
+<option value="lb">Liban</option>
+<option value="ly">Libye</option>
+<option value="lr">Libéria</option>
+<option value="li">Liechtenstein</option>
+<option value="lt">Lituanie</option>
+<option value="lu">Luxembourg</option>
+<option value="mo">Macao</option>
+<option value="mk">Macédoine</option>
+<option value="mg">Madagascar</option>
+<option value="my">Malaisie</option>
+<option value="mw">Malawi</option>
+<option value="mv">Maldives</option>
+<option value="ml">Mali</option>
+<option value="fk">Malouines, îles</option>
+<option value="mt">Malte</option>
+<option value="im">Man, île de</option>
+<option value="mp">Mariannes du Nord, îles</option>
+<option value="ma">Maroc</option>
+<option value="mh">Marshall, îles</option>
+<option value="mq">Martinique</option>
+<option value="mu">Maurice</option>
+<option value="mr">Mauritanie</option>
+<option value="yt">Mayotte</option>
+<option value="mx">Mexique</option>
+<option value="fm">Micronésie</option>
+<option value="md">Moldavie</option>
+<option value="mc">Monaco</option>
+<option value="mn">Mongolie</option>
+<option value="ms">Montserrat</option>
+<option value="me">Monténégro</option>
+<option value="mz">Mozambique</option>
+<option value="na">Namibie</option>
+<option value="nr">Nauruan</option>
+<option value="ni">Nicaragua</option>
+<option value="ne">Niger</option>
+<option value="ng">Nigéria</option>
+<option value="nu">Niué</option>
+<option value="nf">Norfolk, île</option>
+<option value="no">Norvège</option>
+<option value="nc">Nouvelle-Calédonie</option>
+<option value="nz">Nouvelle-Zélande</option>
+<option value="np">Népal</option>
+<option value="io">Océan Indien, territoire britannique de l’île de l’</option>
+<option value="om">Oman</option>
+<option value="ug">Ouganda</option>
+<option value="uz">Ouzbékistan</option>
+<option value="pk">Pakistan</option>
+<option value="pw">Palaos</option>
+<option value="pa">Panama</option>
+<option value="pg">Papouasie-Nouvelle-Guinée</option>
+<option value="py">Paraguay</option>
+<option value="nl">Pays-Bas</option>
+<option value="ph">Philippines</option>
+<option value="pn">Pitcairn</option>
+<option value="pl">Pologne</option>
+<option value="pf">Polynésie française</option>
+<option value="pr">Porto Rico</option>
+<option value="pt">Portugal</option>
+<option value="pe">Pérou</option>
+<option value="qa">Qatar</option>
+<option value="ro">Roumanie</option>
+<option value="gb">Royaume-Uni</option>
+<option value="ru">Russie</option>
+<option value="rw">Rwanda</option>
+<option value="xm">Récif Kingman</option>
+<option value="re">Réunion</option>
+<option value="eh">Sahara Occidental</option>
+<option value="bl">Saint Barthélemy</option>
+<option value="mf">Saint Martin</option>
+<option value="kn">Saint-Kitts-et-Nevis</option>
+<option value="sm">Saint-Marin</option>
+<option value="sx">Saint-Martin</option>
+<option value="pm">Saint-Pierre-et-Miquelon</option>
+<option value="vc">Saint-Vincent-et-les-Grenadines</option>
+<option value="sh">Sainte-Hélène</option>
+<option value="lc">Sainte-Lucie</option>
+<option value="sb">Salomon, îles</option>
+<option value="ws">Samoa</option>
+<option value="as">Samoa américaines</option>
+<option value="st">Sao Tomé-et-Principe</option>
+<option value="rs">Serbie</option>
+<option value="sc">Seychelles</option>
+<option value="sl">Sierra Leone</option>
+<option value="sg">Singapour</option>
+<option value="sk">Slovaquie</option>
+<option value="si">Slovénie</option>
+<option value="so">Somalie</option>
+<option value="sd">Soudan</option>
+<option value="ss">Soudan du Sud</option>
+<option value="lk">Sri Lanka</option>
+<option value="ch">Suisse</option>
+<option value="sr">Suriname</option>
+<option value="se">Suède</option>
+<option value="xr">Svalbard</option>
+<option value="sz">Swaziland</option>
+<option value="sy">Syrie</option>
+<option value="sn">Sénégal</option>
+<option value="tj">Tadjikistan</option>
+<option value="tz">Tanzanie</option>
+<option value="tw">Taïwan</option>
+<option value="td">Tchad</option>
+<option value="cz">Tchèque, République</option>
+<option value="tf">Terres Australes Françaises</option>
+<option value="th">Thaïlande</option>
+<option value="tl">Timor-Leste</option>
+<option value="tg">Togo</option>
+<option value="tk">Tokelau</option>
+<option value="to">Tonga</option>
+<option value="tt">Trinité-et-Tobago</option>
+<option value="tn">Tunisie</option>
+<option value="tm">Turkménistan</option>
+<option value="tc">Turques et Caïques, îles</option>
+<option value="tr">Turquie</option>
+<option value="tv">Tuvalu</option>
+<option value="ua">Ukraine</option>
+<option value="uy">Uruguay</option>
+<option value="vu">Vanuatu</option>
+<option value="va">Vatican</option>
+<option value="ve">Venezuela</option>
+<option value="vn">Vietnam</option>
+<option value="qw">Wake</option>
+<option value="wf">Wallis-et-Futuna</option>
+<option value="ye">Yémen</option>
+<option value="zm">Zambie</option>
+<option value="zw">Zimbabwe</option>
+<option value="eg">Égypte</option>
+<option value="ae">Émirats arabes unis</option>
+<option value="ec">Équateur</option>
+<option value="er">Érythrée</option>
+<option value="us">États-Unis</option>
+<option value="et">Éthiopie</option>
+<option value="xb">Île Baker</option>
+<option value="xe">Île Europa</option>
+<option value="xh">Île Howland</option>
+<option value="xj">Île Jan Mayen</option>
+<option value="xq">Île Jarvis</option>
+<option value="qu">Île Juan de Nova</option>
+<option value="xt">Île Tromelin</option>
+<option value="cp">Île de Clipperton</option>
+<option value="xv">Île de la Navasse</option>
+<option value="xa">Îles Ashmore-et-Cartier</option>
+<option value="qx">Îles Glorieuses</option>
+<option value="qm">Îles Midway</option>
+<option value="xp">Îles Paracels</option>
+<option value="xs">Îles Spratleys</option>
+<option value="vi">Îles Vierges Américaines</option>
+<option value="vg">Îles Vierges Britanniques</option>
+<option value="xc">Îles de la mer de Corail</option>
+</select>
+          </div>
+        
+        
+          <div class="field field-language ">
+            <select aria-required="true" id="id_lang" name="lang" required="required">
+<option value="id">Bahasa Indonesia</option>
+<option value="de">Deutsch</option>
+<option value="en">English</option>
+<option value="es">Español</option>
+<option value="fr" selected="selected">Français</option>
+<option value="pl">Polski</option>
+<option value="pt">Português</option>
+<option value="ru">Русский</option>
+<option value="zh-TW">正體中文</option>
+</select>
+          </div>
+        
+        <div class="field field-privacy ">
+          <label for="id_privacy" class="privacy-check-label"><input id="id_privacy" name="privacy" required="required" type="checkbox" /> <span class="title">J’accepte que Mozilla utilise mes informations conformément à <a href="/privacy/websites/">cette politique de confidentialité</a></span></label>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-submit">
+      <button type="submit" id="footer_email_submit" class="form-button ">
+        
+          
+            Je m’inscris
+          
+        
+      </button>
+
+      
+        <p class="form-details">
+          <small>Nous ne vous enverrons que des informations concernant Mozilla.</small>
+        </p>
+      
+
+    </div>
+
+    <div id="newsletter-spinner" class="hidden"></div>
+  </form>
+  <div id="newsletter-form-thankyou" class="thank billboard newsletter-form hidden">
+    
+      
+  <h3>Merci.</h3>
+  <p>
+  Si vous n’avez jamais confirmé d’abonnement à une lettre d’information liée à Mozilla, vous devrez peut-être le faire. Veuillez vérifier votre boîte de réception ou vos courriers indésirables et recherchez un message de notre part.
+  </p>
+
+    
+  </div>
+
+
+    </aside>
+  </article>
+
+
+    
+    </div><!-- close #wrapper -->
+
+    
+  <footer role="contentinfo">
+    <ul>
+      <li><a href="/fr/firefox/desktop/" class="more" data-link-type="footer" data-link-name="Firefox Features">Fonctionnalités de Firefox</a></li>
+      <li><a href="https://support.mozilla.org/products/firefox" class="more" data-link-type="footer" data-link-name="Firefox Help">Assistance pour Firefox</a></li>
+    </ul>
+    <ul>
+      <li><a href="/fr/about/legal/" data-link-type="footer" data-link-name="Legal">Mentions légales</a></li>
+      
+        
+      
+      <li><a href="/fr/privacy/" data-link-type="footer" data-link-name="Privacy">Confidentialité</a></li>
+    </ul>
+  </footer>
+
+
+    </div><!-- close #outer-wrapper -->
+
+    
+      <script type="text/javascript" src="/media/js/common-bundle.cee1f2fdf483.js" charset="utf-8"></script>
+    
+
+    
+    
+      
+        <script type="text/javascript" src="/media/js/stub-attribution-bundle.51373cd8a0ad.js" charset="utf-8"></script>
+      
+    
+
+    
+  <script type="text/javascript" src="/media/js/firefox_tour_none-bundle.b073ed032af6.js" charset="utf-8"></script>
+
+
+    
+    
+  
+
+
+    
+  </body>
+</html>
