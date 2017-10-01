@@ -13,6 +13,7 @@ from adjust_prices import list_number_room_booked
 from simplecrypt import decrypt
 from simplecrypt import DecryptionException
 
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 class CustomFlask(Flask):
     jinja_options = Flask.jinja_options.copy()
@@ -134,6 +135,11 @@ def adjust_prices():
                              default_flow_style=False)
             return str(text).replace('\n', '<br>')
     return render_template('adjust_price.html')
+
+
+@app.route('/set_prices', methods=['GET', 'POST'])
+def set_prices():
+
 
 
 @app.route('/css/<path:path_file>')
